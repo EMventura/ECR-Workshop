@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+ID,RA,Dec = np.loadtxt('./catalog.csv', unpack = True, delimiter=',')
+
+plt.scatter(RA, Dec)
+plt.xlabel('RA [deg]')
+plt.ylabel('Dec [deg]')
+plt.show()
