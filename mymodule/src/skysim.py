@@ -10,8 +10,8 @@ def generate_positions(NSRC):
     # Determine Andromeda location in ra/dec degrees
 
     # from wikipedia
-    RA = '30:42:44.3'
-    DEC = '41:16:99'
+    RA = '00:46:44.3'
+    DEC = '41:56:09'
 
     # convert to decimal degrees
     D, M, S = DEC.split(':')
