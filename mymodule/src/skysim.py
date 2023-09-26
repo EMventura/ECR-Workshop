@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 """
-Script to generate a simulated star catalogue
+Script to generate a simulated star catalogue around Andromeda
 """
 import math as mh
 import random as rd
